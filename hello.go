@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/cr1m3s/go_ex/book"
+)
 
 func main() {
-	message := "Hello world"
-	fmt.Println(message)
+	fmt.Println(book.Title())
 }
